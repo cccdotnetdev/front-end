@@ -1,15 +1,20 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Location } from "@angular/common";
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
+
 export class HeaderComponent implements OnInit {
-
-  constructor() { }
-
+  currentURL: string;
+  constructor(public location: Location, router: Router) {    
+  }
+  
   ngOnInit() {
+    this.currentURL = location.pathname;        
   }
 
 }

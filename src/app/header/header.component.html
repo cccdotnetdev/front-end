@@ -19,56 +19,56 @@
         <div class="nav_right_top">
 
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li class="dropdown">
+            <li [class.active]="currentURL.includes('home')" ><a href="home">Home</a></li>
+            <li class="dropdown" [class.active]="currentURL.includes('company')"  >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                 aria-expanded="false">
                 Company <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="/company/overview">Overview</a></li>
-                <li><a href="404.html">Corporate Facts</a></li>
-                <li><a href="404.html">Our Values</a></li>
-                <li><a href="404.html">Quality Policy</a></li>
+                <li><a href="company/overview">Overview</a></li>
+                <li><a href="company/corporatefacts">Corporate Facts</a></li>
+                <li><a href="company/our-values">Our Values</a></li>
+                <li><a href="company/quality-policy">Quality Policy</a></li>
               </ul>
             </li>
-            <li class="dropdown">
+            <li class="dropdown" [class.active]="currentURL.includes('partnership')" >
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                 aria-expanded="false">
                 Partnership <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="portfolio.html">Outsourcing (Alliance)</a></li>
-                <li><a href="404.html">Reseller (Focus on sales)</a></li>
-                <li><a href="404.html">Representative (Offshore)</a></li>
-                <li><a href="404.html">Referral (Benefit of Trust)</a></li>
+                <li><a href="partnership/outsourcing">Outsourcing (Alliance)</a></li>
+                <li><a href="partnership/reseller">Reseller (Focus on sales)</a></li>
+                <li><a href="partnership/representative">Representative (Offshore)</a></li>
+                <li><a href="partnership/referral">Referral (Benefit of Trust)</a></li>
               </ul>
             </li>
-            <li class=""><a href="index.html">Technology</a></li>
-            <li class="dropdown">
+            <li  [class.active]="currentURL.includes('techonology')"><a href="techonology">Technology</a></li>
+            <li class="dropdown" [class.active]="currentURL.includes('services')">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                 aria-expanded="false">
                 Services <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="portfolio.html">Consulting</a></li>
-                <li><a href="404.html">Design</a></li>
-                <li><a href="404.html">Development</a></li>
-                <li><a href="404.html">Data Handling</a></li>
-                <li><a href="404.html">Management</a></li>
+                <li><a href="services/consulting">Consulting</a></li>
+                <li><a href="services/design">Design</a></li>
+                <li><a href="services/development">Development</a></li>
+                <li><a href="services/data-handling">Data Handling</a></li>
+                <li><a href="services/management">Management</a></li>
               </ul>
             </li>
-            <li class="dropdown">
+            <li class="dropdown" [class.active]="currentURL.includes('work')">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                 aria-expanded="false">
                 Work <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="portfolio.html">E-Commerce</a></li>
-                <li><a href="404.html">Mobile Applications</a></li>
+                <li><a href="work/ecommerce">E-Commerce</a></li>
+                <li><a href="work/mobile-app">Mobile Applications</a></li>
               </ul>
             </li>
-              <li class=""><a href="index.html">Contact</a></li>
+              <li [class.active]="currentURL.includes('contact')"><a href="contact">Contact</a></li>
           </ul>
         </div>
       </div>
