@@ -6,6 +6,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { CorporatefactsComponent } from './pages/company/corporatefacts/corporatefacts.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'company/overview', component: OverviewComponent },
   { path: 'company/corporatefacts', component: CorporatefactsComponent },

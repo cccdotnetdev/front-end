@@ -146,7 +146,7 @@ a.request {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #FF9A00;
+    background-color: #FF7400;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -164,7 +164,7 @@ span.desc {
 }
 
 .logo-w3layouts-agileits i.fa {
-    color: #FF9A00;
+    color: #FF7400;
 }
 
 /*-- header --*/
@@ -310,8 +310,8 @@ span.desc {
     width: 12px;
     height: 12px;
     margin: 0px 4px;
-    border: 2px solid #FF9A00;
-    background: #FF9A00;
+    border: 2px solid #FF7400;
+    background: #FF7400;
 }
 
 /* Show it is fixed to the top */
@@ -339,13 +339,13 @@ span.desc {
 }
 
 a.act {
-    border: solid 2px #FF9A00;
-    background-color: #FF9A00;
+    border: solid 2px #FF7400;
+    background-color: #FF7400;
 }
 
 .bnr-button a:hover {
-    border: solid 2px #FF9A00;
-    background-color: #FF9A00;
+    border: solid 2px #FF7400;
+    background-color: #FF7400;
 }
 
 a.two.scroll {
@@ -452,8 +452,8 @@ p.sub_p {
 }
 
 .ab_button a:hover {
-    background: #FF9A00;
-    border: 2px solid #FF9A00;
+    background: #FF7400;
+    border: 2px solid #FF7400;
     color: #fff;
 }
 
@@ -476,7 +476,7 @@ p.sub_p {
 
 .banner_bottom_grid_left_grid span {
     font-size: 2em;
-    color: #FF9A00;
+    color: #FF7400;
     line-height: 62px;
 }
 
@@ -522,7 +522,7 @@ ul.short li {
 }
 
 ul.short li a {
-    color: #FF9A00;
+    color: #FF7400;
     text-decoration: none;
 }
 
@@ -568,8 +568,8 @@ h3.tittle-w3ls.cen {
 }
 
 .ser-first-grid:hover span {
-    color: #FF9A00;
-    border: 2px solid #FF9A00;
+    color: #FF7400;
+    border: 2px solid #FF7400;
 }
 
 .ser-first-grid p {
@@ -601,11 +601,11 @@ h3.tittle-w3ls.cen {
 }
 
 .a1 {
-    background: #FF9A00;
+    background: #FF7400;
 }
 
 .a4 {
-    background: #FF9A00;
+    background: #FF7400;
 }
 
 .a2 {
@@ -691,7 +691,7 @@ a.blog-btn {
 }
 
 a.blog-btn:hover {
-    background: #FF9A00;
+    background: #FF7400;
     color: #fff;
 }
 
@@ -796,7 +796,7 @@ ol.carousel-indicators.two {
     font-family: 'Fontawesome';
     float: left;
     margin-right: 10px;
-    color: #FF9A00;
+    color: #FF7400;
     font-size: 2em;
 }
 
@@ -807,7 +807,7 @@ ol.carousel-indicators.two {
 }
 
 .test_img_info h6 {
-    color: #FF9A00;
+    color: #FF7400;
     font-size: 1em;
     font-weight: 600;
     margin-bottom: 2em;
@@ -893,7 +893,7 @@ ol.carousel-indicators.two {
     margin: 0 0 0 -4px;
     font-weight: 600;
     letter-spacing: 1px;
-    background: #FF9A00;
+    background: #FF7400;
     color: #fff;
 }
 
@@ -942,7 +942,7 @@ a.b-home {
 }
 
 a.b-home:hover {
-    background: #FF9A00;
+    background: #FF7400;
 }
 
 .error-404 p {
@@ -992,7 +992,7 @@ button.btn1 {
     padding: 12px 0;
     text-align: center;
     text-decoration: none;
-    background: #FF9A00;
+    background: #FF7400;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -1003,7 +1003,7 @@ button.btn1 {
 }
 
 button.btn1:hover {
-    background: #FF9A00;
+    background: #FF7400;
 }
 
 @media(max-width:640px) {
@@ -1120,7 +1120,7 @@ h3.agileinfo_sign {
     color: #FFFFFF;
     text-transform: uppercase;
     cursor: pointer;
-    background: #FF9A00;
+    background: #FF7400;
     box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
 }
 
@@ -1331,7 +1331,7 @@ ul.social-nav.model-3d-0.footer-social.social.two {
 }
 
 .address-right p a {
-    color: #FF9A00;
+    color: #FF7400;
     text-decoration: none;
 }
 
@@ -1491,7 +1491,7 @@ p.copy-right {
 }
 
 p.copy-right a {
-    color: #FF9A00;
+    color: #FF7400;
     text-decoration: none;
 }
 
@@ -1507,7 +1507,7 @@ p.copy-right a:hover {
 }
 
 .footer-left h2 i.fa {
-    color: #FF9A00;
+    color: #FF7400;
 }
 
 .footer-left h2 a span {

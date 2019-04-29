@@ -922,7 +922,7 @@ span.image-block.block2 img {
 
 ul.portfolio-categ li.active a {
     text-decoration: underline;
-    color: #FF9A00;
+    color: #FF7400;
 }
 ul.portfolio-categ li a {
     letter-spacing: 1px;
@@ -954,7 +954,7 @@ ul.portfolio-categ li a {
     color:#fff;
 }
 .port-info:hover{
-        background:#FF9A00;
+        background:#FF7400;
 }
 /**** END PORTFOLIO STYLES*****/
 
