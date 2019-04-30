@@ -3,8 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooterComponent } from './footer/footer.component';
-import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { OverviewComponent } from './pages/company/overview/overview.component';
 import { ContactComponent } from './pages/contact/contact.component';
@@ -23,12 +21,14 @@ import { DataHandlingComponent } from './pages/services/data-handling/data-handl
 import { ManagementComponent } from './pages/services/management/management.component';
 import { EcommerceComponent } from './pages/work/ecommerce/ecommerce.component';
 import { MobileAppComponent } from './pages/work/mobile-app/mobile-app.component';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/compiler/src/core';
+import { HeadermenuModule } from './headermenu/headermenu.module';
+import { FooterModule } from './footer/footer.module';
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    FooterComponent,
-    HeaderComponent,
+    AppComponent,  
     HomeComponent,
     OverviewComponent,
     ContactComponent,
@@ -50,9 +50,12 @@ import { MobileAppComponent } from './pages/work/mobile-app/mobile-app.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HeadermenuModule,
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
+  
 })
 export class AppModule { }
