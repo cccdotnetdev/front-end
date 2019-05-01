@@ -26,6 +26,7 @@ import { HeadermenuModule } from './headermenu/headermenu.module';
 import { FooterModule } from './footer/footer.module';
 import { CustomerCompanyComponent } from './controls/customer-company/customer-company.component';
 import {CompanyComponent} from './pages/company/company/company.component';
+import { PartnershipComponent } from './pages/partnership/partnership/partnership.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import {CompanyComponent} from './pages/company/company/company.component';
     EcommerceComponent,
     MobileAppComponent,
     CustomerCompanyComponent,
-    CompanyComponent
+    CompanyComponent,
+    PartnershipComponent
   ],
   imports: [
     BrowserModule,
