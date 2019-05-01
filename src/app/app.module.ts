@@ -27,7 +27,10 @@ import { FooterModule } from './footer/footer.module';
 import { CustomerCompanyComponent } from './controls/customer-company/customer-company.component';
 import {CompanyComponent} from './pages/company/company/company.component';
 import { PartnershipComponent } from './pages/partnership/partnership/partnership.component';
+<<<<<<< HEAD
 import { HeadermenuComponent } from './headermenu/headermenu/headermenu.component';
+=======
+>>>>>>> 50a42963d83677eae694fe2b52a5802212d7ca9a
 
 @NgModule({
   declarations: [
@@ -53,7 +56,10 @@ import { HeadermenuComponent } from './headermenu/headermenu/headermenu.componen
     CustomerCompanyComponent,
     CompanyComponent,
     PartnershipComponent
+<<<<<<< HEAD
     
+=======
+>>>>>>> 50a42963d83677eae694fe2b52a5802212d7ca9a
   ],
   imports: [
     BrowserModule,
