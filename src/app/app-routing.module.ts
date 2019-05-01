@@ -17,10 +17,12 @@ import { DevelopmentComponent } from './pages/services/development/development.c
 import { ManagementComponent } from './pages/services/management/management.component';
 import { EcommerceComponent } from './pages/work/ecommerce/ecommerce.component';
 import { MobileAppComponent } from './pages/work/mobile-app/mobile-app.component';
+import { CompanyComponent } from './pages/company/company/company.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
+  {path:'company', component:CompanyComponent},
   { path: 'company/overview', component: OverviewComponent },
   { path: 'company/corporatefacts', component: CorporatefactsComponent },
   { path: 'company/our-values', component: OurValuesComponent },

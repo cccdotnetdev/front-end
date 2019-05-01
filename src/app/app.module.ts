@@ -24,7 +24,8 @@ import { MobileAppComponent } from './pages/work/mobile-app/mobile-app.component
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/compiler/src/core';
 import { HeadermenuModule } from './headermenu/headermenu.module';
 import { FooterModule } from './footer/footer.module';
-
+import { CustomerCompanyComponent } from './controls/customer-company/customer-company.component';
+import {CompanyComponent} from './pages/company/company/company.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,9 @@ import { FooterModule } from './footer/footer.module';
     DataHandlingComponent,
     ManagementComponent,
     EcommerceComponent,
-    MobileAppComponent
+    MobileAppComponent,
+    CustomerCompanyComponent,
+    CompanyComponent
   ],
   imports: [
     BrowserModule,
