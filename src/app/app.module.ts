@@ -28,6 +28,7 @@ import { CustomerCompanyComponent } from './controls/customer-company/customer-c
 import {CompanyComponent} from './pages/company/company/company.component';
 import { PartnershipComponent } from './pages/partnership/partnership/partnership.component';
 import { HeadermenuComponent } from './headermenu/headermenu/headermenu.component';
+import { ServicesComponent } from './pages/services/services/services.component';
 
 
 @NgModule({
@@ -53,7 +54,8 @@ import { HeadermenuComponent } from './headermenu/headermenu/headermenu.componen
     MobileAppComponent,
     CustomerCompanyComponent,
     CompanyComponent,
-    PartnershipComponent
+    PartnershipComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,

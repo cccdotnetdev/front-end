@@ -19,6 +19,8 @@ import { EcommerceComponent } from './pages/work/ecommerce/ecommerce.component';
 import { MobileAppComponent } from './pages/work/mobile-app/mobile-app.component';
 import { CompanyComponent } from './pages/company/company/company.component';
 import { PartnershipComponent } from './pages/partnership/partnership/partnership.component';
+import { TechnologyComponent } from './pages/technology/technology.component';
+import { ServicesComponent } from './pages/services/services/services.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -33,12 +35,13 @@ const routes: Routes = [
   { path: 'partnership/referral', component: ReferralComponent },
   { path: 'partnership/representative', component: RepresentativeComponent },
   { path: 'partnership/reseller', component: ResellerComponent },
+  {path:'services', component:ServicesComponent},
   { path: 'services/consulting', component: ConsultingComponent },
   { path: 'services/data-handling', component: DataHandlingComponent },
   { path: 'services/design', component: DesignComponent },
   { path: 'services/development', component: DevelopmentComponent },
   { path: 'services/management', component: ManagementComponent },
-  { path: 'techonology', component: ManagementComponent },
+  { path: 'techonology', component: TechnologyComponent },
   { path: 'work/ecommerce', component: EcommerceComponent },
   { path: 'work/mobile-app', component: MobileAppComponent },
   { path: 'contact', component: ContactComponent }
