@@ -29,6 +29,7 @@ import {CompanyComponent} from './pages/company/company/company.component';
 import { PartnershipComponent } from './pages/partnership/partnership/partnership.component';
 import { HeadermenuComponent } from './headermenu/headermenu/headermenu.component';
 import { ServicesComponent } from './pages/services/services/services.component';
+import { PartnershipModalComponent } from './pages/partnership/partnership-modal/partnership-modal.component';
 
 
 @NgModule({
@@ -55,13 +56,16 @@ import { ServicesComponent } from './pages/services/services/services.component'
     CustomerCompanyComponent,
     CompanyComponent,
     PartnershipComponent,
-    ServicesComponent
+    ServicesComponent,
+    PartnershipModalComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HeadermenuModule,
     FooterModule
+   
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

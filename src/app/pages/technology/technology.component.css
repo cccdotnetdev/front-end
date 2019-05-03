@@ -1,3 +1,7 @@
+.banner_inner_con {
+    background: url("/assets/images/tech_banner1.png") no-repeat 0px 0px;
+}
+
 .banner-img{
     background-repeat: no-repeat;
 background-image: url(http://www.cybercom.co.in/wp-content/uploads/2014/08/tech_banner1.png);

@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { OverviewComponent } from './pages/company/overview/overview.component';
 import { ContactComponent } from './pages/contact/contact.component';
@@ -25,7 +25,7 @@ import { ServicesComponent } from './pages/services/services/services.component'
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
-  { path: 'company', component: CompanyComponent },
+  { path: 'company/:modulename', component: CompanyComponent },
   { path: 'company/overview', component: OverviewComponent },
   { path: 'company/corporatefacts', component: CorporatefactsComponent },
   { path: 'company/our-values', component: OurValuesComponent },
@@ -35,13 +35,13 @@ const routes: Routes = [
   { path: 'partnership/referral', component: ReferralComponent },
   { path: 'partnership/representative', component: RepresentativeComponent },
   { path: 'partnership/reseller', component: ResellerComponent },
-  {path:'services', component:ServicesComponent},
+  { path: 'services', component:ServicesComponent},
   { path: 'services/consulting', component: ConsultingComponent },
   { path: 'services/data-handling', component: DataHandlingComponent },
   { path: 'services/design', component: DesignComponent },
   { path: 'services/development', component: DevelopmentComponent },
   { path: 'services/management', component: ManagementComponent },
-  { path: 'techonology', component: TechnologyComponent },
+  { path: 'technology', component: TechnologyComponent },
   { path: 'work/ecommerce', component: EcommerceComponent },
   { path: 'work/mobile-app', component: MobileAppComponent },
   { path: 'contact', component: ContactComponent }

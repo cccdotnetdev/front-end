@@ -1,3 +1,83 @@
-<app-headermenu></app-headermenu>
+<!-- <app-headermenu></app-headermenu> -->
+
+<div class="top_header" id="home">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="nav_top_fx_w3ls_agileinfo">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+            aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="logo-w3layouts-agileits">
+            <h1> <a class="navbar-brand" href="index.html"><i class="fa fa-lock" aria-hidden="true"></i> Cybercom <span
+                  class="desc">Creation</span></a></h1>
+          </div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <div class="nav_right_top">
+  
+            <ul class="nav navbar-nav">
+              <li routerLinkActive="active"><a routerLink="/home">Home</a></li>
+              <li class="dropdown" routerLinkActive="active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">
+                  Company <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a [routerLink]="[ '/company', 'overview' ]">Overview</a></li>
+                  <li><a routerLink="company/corporatefacts">Corporate Facts</a></li>
+                  <li><a routerLink="company/our-values">Our Values</a></li>
+                  <li><a routerLink="company/quality-policy">Quality Policy</a></li>
+                </ul>
+              </li>
+              <li class="dropdown" routerLinkActive="active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">
+                  Partnership <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a routerLink="/partnership/outsourcing">Outsourcing (Alliance)</a></li>
+                  <li><a routerLink="/partnership/reseller">Reseller (Focus on sales)</a></li>
+                  <li><a routerLink="/partnership/representative">Representative (Offshore)</a></li>
+                  <li><a routerLink="/partnership/referral">Referral (Benefit of Trust)</a></li>
+                </ul>
+              </li>
+              <li routerLinkActive="active"><a routerLink="/technology">Technology</a></li>
+              <li class="dropdown" routerLinkActive="active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">
+                  Services <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a routerLink="/services/consulting">Consulting</a></li>
+                  <li><a routerLink="/services/design">Design</a></li>
+                  <li><a routerLink="/services/development">Development</a></li>
+                  <li><a routerLink="/services/data-handling">Data Handling</a></li>
+                  <li><a routerLink="/services/management">Management</a></li>
+                </ul>
+              </li>
+              <li class="dropdown" routerLinkActive="active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">
+                  Work <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a routerLink="/work/ecommerce">E-Commerce</a></li>
+                  <li><a routerLink="/work/mobile-app">Mobile Applications</a></li>
+                </ul>
+              </li>
+              <li routerLinkActive="active"><a routerLink="contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </nav>
+  </div>
+  
 <router-outlet></router-outlet>
 <app-footer></app-footer>

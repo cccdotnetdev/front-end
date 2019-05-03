@@ -21,7 +21,7 @@
           <ul class="nav navbar-nav">
             <li [class.active]="currentURL.includes('home')"><a href="home">Home</a></li>
             <li class="dropdown" [class.active]="currentURL.includes('company')">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              <a href="company" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                 aria-expanded="false">
                 Company <span class="caret"></span>
               </a>
@@ -33,7 +33,7 @@
               </ul>
             </li>
             <li class="dropdown" [class.active]="currentURL.includes('partnership')">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              <a routerLink="/partnership" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                 aria-expanded="false">
                 Partnership <span class="caret"></span>
               </a>
@@ -44,7 +44,7 @@
                 <li><a href="partnership/referral">Referral (Benefit of Trust)</a></li>
               </ul>
             </li>
-            <li [class.active]="currentURL.includes('techonology')"><a href="techonology">Technology</a></li>
+            <li [class.active]="currentURL.includes('techonology')"><a routerLink="/services" >Technology</a></li>
             <li class="dropdown" [class.active]="currentURL.includes('services')">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                 aria-expanded="false">
